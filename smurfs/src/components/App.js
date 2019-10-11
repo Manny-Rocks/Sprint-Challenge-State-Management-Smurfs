@@ -51,6 +51,7 @@ class App extends Component {
                   <p>{smurf.age} yrs old</p>
                   </div>
                 </div>
+                
               );
             })}
           </div>
