@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+  display:flex;
+  flex-direction: row-reverse;
+  width:80%;
+  margin:0 auto;
+  justify-content: space-between;
+  margin-top:50px;
 }
 
 .App-logo {
@@ -25,4 +31,104 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+.smurfs{
+  background-color:rgb(175, 100, 100);
+  height:70vh;
+  background-image: url("https://img.washingtonpost.com/rw/2010-2019/WashingtonPost/2017/04/01/Weekend/Images/wk-smurfs0407-8.jpg");
+  background-size:  100% 100%;
+  width:80%;
+  margin-left:10%;
+  border-radius:200px;
+}
+/* .smurfs h1{
+  background-color:white;
+  color:red;
+  font-size:5rem;
+} */
+.smurrff{
+  background-color: white;
+  width:50%;
+  margin:0 auto;
+  padding:20px;
+  border-radius:60px;
+  display:flex;
+  flex-wrap: wrap;
+  
+}
+.card{
+  background-color:lightskyblue;
+  margin:20px;
+  width:90%;
+  border-radius:20px;
+  padding:10px;
+  
+}
+.SmurfForm{
+  background-color:rgb(90, 143, 212);
+  width:50%;
+  margin:0  auto;
+  margin-top:20px;
+  height:70vh;
+  border-radius:14px;
+}
+.SmurfForm h2{
+ color:rgb(17, 1, 3);
+} 
+
+input{
+  width:60%;
+  border-radius:4px ;
+  background-color: white;
+  color: white;
+  padding: 12px 20px;
+  border: 2px solid blue;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+.formee{
+  display: flex;
+  flex-direction: column;
+}
+
+button{
+  margin-top:40px;
+  background-color:rgb(175, 12, 180);
+  color:white;
+  width:30%;
+  padding:10px;
+  border:2px solid rgb(116, 13, 119) ;
+  border-radius:10px;
+}
+button:hover{
+  background-color:rgb(79, 11, 80)
+}
+.header{
+  color:red;
+  font-size: 3rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left:27%;
+  margin-top:20px;
+  -webkit-animation: random 5s infinite;
+  animation: random 5s infinite;
+  /* -webkit-animation: font 5s infinite;
+  animation: font 5s infinite; */
+ 
+}
+@keyframes  random {
+  15% { color: red; } 
+  30% { color: rgb(255, 0, 149); } 
+  45% { color: green; } 
+  60% { color: blue; }
+  75% { color: rgb(4, 142, 160);}
+  90% { color: orange; font-size: 4.2rem ;}  
+}
+@keyframes  font {
+  /* 15% { font-size: 3.2rem; } 
+  30% { font-size: 3.4rem;  } 
+  45% { font-size: 3.6rem ; } 
+  60% { font-size: 3.8rem;  }
+  75% { font-size: 4rem ;} */
+  98% { font-size: 4.2rem ; }  
 }
